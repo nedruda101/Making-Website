@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <style>
+        .firstform p input {
+            margin-left: 40px;
+        }
+
+        .fieldset-auto {
+            width: 550px;
+        }
+
+        .form-position {
+            padding-bottom: 50px;
+            position: absolute;
+            top: 15%;
+            left: 35%;
+            margin-top: -100px;
+            margin-left: -100px;
+        }
+
+        #label-name {
+            padding-left: 50px;
+        }
+
+        body {
+            background: #262626;
+            color: whitesmoke;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <form class="form-position">
+        <fieldset class="fieldset-auto">
+            <center>
+                <legend>
+                    <h1>Registration Form</h1>
+                </legend>
+            </center>
+            <!--NAME-->
+            <div class="firstform">
+                <p>First Name:
+                    <br>
+                    <input type="text" name="firstname" size="20" maxlength="30" />
+                </p>
+                <p>Middle Name:
+                    <br>
+                    <input type="text" name="middlename" size="20" maxlength="30">
+                </p>
+                <p>Last Name:
+                    <br>
+                    <input type="text" name="lastname" size="20" maxlength="30" />
+                </p>
+                <div>
+                    <!--GENDER-->
+                    <p>Gender:</p>
+                    <br>
+                    <input type="radio" name="gender" value="f">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="m">
+                    <label for="male">Male</label>
+                    <!--ADDRESS-->
+                    <p>Address:
+                        <br>
+                        <input type="text" name="address" size="50" maxlength="30" />
+                        <br>
+                        <label id="label-name" for="streetname">Street Name/Barangay</label>
+                        <br>
+                        <input type="text" name="address" size="50" maxlength="30" />
+                        <label id="label-name" for="cityname">City/Municipality</label>
+                    </p>
+                    <!--BIRTHDAY-->
+                    <label for="bday">Date of Birth:</label>
+                    <input type="date" name="birthday" />
+                    <br>
+                    <!--HOBBIES-->
+                    <p>Hobbies:
+                        <br>
+                        <input type="checkbox" name="hobbies" />Enrichment Hobbies
+                        <input type="checkbox" name="hobbies" />Sports and Games
+                        <input type="checkbox" name="hobbies" />Social Activities
+                        <input type="checkbox" name="hobbies" />Creative Hobbies
+                        <input type="checkbox" name="hobbies" />Collecting
+                        <input type="checkbox" name="hobbies" />Making and Tinkering
+                        <input type="checkbox" name="hobbies" />Outdoor Recreation
+                        <input type="checkbox" name="hobbies" />Domestic Hobbies
+
+                    </p>
+                    <!--STATUS-->
+                    <p>Marital Status:
+                        <br>
+                        <input type="radio" name="status" />
+                        <label for="single">Single</label>
+                        <input type="radio" name="status" />
+                        <label for="single">Married</label>
+                        <input type="radio" name="status" />
+                        <label for="single">Widowed</label>
+                        <br>
+                        <input type="radio" name="status" />
+                        <label for="single">Divorced</label>
+                        <input type="radio" name="status" />
+                        <label for="single">Seperated</label>
+                        <input type="radio" name="status" />
+                        <label for="single">Registered Partnership</label>
+                    </p>
+
+                    <!--BUTTON-->
+                    <input type="submit" name="Submit" />
+                    <input type="reset" name="reset" value="Reset" />
+                    <br>
+                    <!--I ACCEPT-->
+                    <center><input type="checkbox" name="accept">I accept</center>
+
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
