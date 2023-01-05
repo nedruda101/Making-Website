@@ -1,0 +1,204 @@
+        * {
+            text-decoration: none;
+            font-family: karla;
+        }
+
+        body {
+            background: #FBAB7E;
+            background: linear-gradient(62deg, white 0%, #F7CE68 100%);
+
+        }
+
+        .logo img {
+            width: 100px;
+            height: 80px;
+            display: inline;
+            margin-left: 620px;
+            margin-right: auto;
+            padding-top: 100px;
+
+
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        ul li img {
+            width: 300px;
+
+        }
+
+        ul li a {
+            color: black;
+
+        }
+
+        a:hover {
+           
+            border-radius: 10px;
+            background: #eb8b06;
+            display: inline;
+        }
+
+
+        .navmenu {
+            margin-right: 20px;
+
+
+        }
+
+        #menu {
+            display: inline;
+            float: right;
+            padding: 25px;
+            font-size: larger;
+
+        }
+
+        .search_bar {
+        position: absolute;
+        top: 20px;
+        margin-left: 25px;
+        background: #faf0e6;
+        transform: translate(50%-50%);
+        height: 20px;
+        border-radius: 40px;
+        padding: 10px;
+        }
+
+        .list ul li {
+            display: inline;
+            padding: 2px;
+
+        }
+
+        #furniture1 {
+            float: right;
+            margin-top: -150px;
+
+        }
+
+        #furniture1 img {
+            width: 300px;
+            height: 400px;
+        }
+
+        .image1 {
+            position: absolute;
+            top: 380px;
+            left: 310px;
+           
+        }
+
+        .image2 {
+            position: absolute;
+            top: 380px;
+            left: 620px;
+           
+        }
+
+        .image3 {
+            position: absolute;
+            top: 380px;
+            left: 930px;
+            
+        }
+
+        .image4 {
+            position: absolute;
+            top: 855px;
+            left: 310px;
+           
+        }
+
+        .image5 {
+            position: absolute;
+            top: 855px;
+            left: 620px;
+           
+        }
+
+        .image6 {
+            position: absolute;
+            top: 855px;
+            left: 930px;
+          
+        }
+
+        .image7 {
+            position: absolute;
+            top: 1330px;
+            left: 310px;
+         
+        }
+
+        .image8 {
+            position: absolute;
+            top: 1330px;
+            left: 620px;
+           
+        }
+
+        .image9 {
+            position: absolute;
+            top: 1330px;
+            left: 930px;
+         
+        }
+
+
+        h5 {
+            color: black;
+        }
+        #subcontent {
+            width: 100%;
+            position: absolute;
+            background: #ebb52c;
+            top: 255%;
+            width: 99%;
+            height: 235px;
+        }
+        #subcontent-another{
+            width: 100%;
+            position: absolute;
+            background: #ebb52c;
+            top: 200%;
+            width: 99%;
+            height: 235px;
+        }
+        #subcontent-another1{
+            width: 100%;
+            position: absolute;
+            background: #ebb52c;
+            top: 100%;
+            width: 99%;
+            height: 235px;
+        }
+
+        #table1 {
+            padding-top: 50px;
+            padding-left: 85px;
+            padding-right: 75px;
+        }
+        .input{
+            
+            padding: 15px 15px 15px 5px;
+            position: absolute;
+            bottom: 120px;
+            right: 95px;
+        }
+        .btn{
+            font-weight: normal;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            bottom: 45px;
+            right: 66px;
+            line-height: 1;
+            position: inherit;
+            padding: 10px 15px 10px 15px;
+            background: #ebb52c;
+        }
+        .about{
+            margin-right:150px;
+            margin-left:150px;

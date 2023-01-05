@@ -3,158 +3,13 @@
 
 <head>
     <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/de21db01af.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="icon.webp">
     <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
     <title>Leifshop</title>
-    <style>
-        * {
-            text-decoration: none;
-            font-family: karla;
-        }
-
-        body {
-            background: #FBAB7E;
-            background: linear-gradient(62deg, white 0%, #F7CE68 100%);
-
-        }
-
-        .logo img {
-            width: 100px;
-            height: 80px;
-            display: inline;
-            margin-left: 420px;
-            margin-right: auto;
-            padding-top: 100px;
-
-        }
-
-        ul {
-            list-style-type: none;
-        }
-
-        ul li img {
-            width: 300px;
-
-        }
-
-        ul li a {
-            color: black;
-
-        }
-
-        a:hover {
-            padding: 5px;
-
-            background: #eb8b06;
-            display: inline;
-        }
-
-
-        .navmenu {
-            margin-right: 20px;
-
-
-        }
-
-        #menu {
-            display: inline;
-            float: right;
-            padding: 25px;
-            font-size: larger;
-
-        }
-
-        .search_bar {
-            float: left;
-            margin-top: 20px;
-        }
-
-        .list ul li {
-            display: inline;
-            padding: 2px;
-
-        }
-
-        #furniture1 {
-            float: right;
-            margin-top: -150px;
-
-        }
-
-        #furniture1 img {
-            width: 300px;
-            height: 400px;
-        }
-
-        .image1 {
-            position: absolute;
-            top: 380px;
-            left: 310px;
-            z-index: 1;
-        }
-
-        .image2 {
-            position: absolute;
-            top: 380px;
-            left: 620px;
-            z-index: 2;
-        }
-
-        .image3 {
-            position: absolute;
-            top: 380px;
-            left: 930px;
-            z-index: 3;
-        }
-
-        .image4 {
-            position: absolute;
-            top: 855px;
-            left: 310px;
-            z-index: 4;
-        }
-
-        .image5 {
-            position: absolute;
-            top: 855px;
-            left: 620px;
-            z-index: 5;
-        }
-
-        .image6 {
-            position: absolute;
-            top: 855px;
-            left: 930px;
-            z-index: 6;
-        }
-
-        .image7 {
-            position: absolute;
-            top: 1330px;
-            left: 310px;
-            z-index: 7;
-        }
-
-        .image8 {
-            position: absolute;
-            top: 1330px;
-            left: 620px;
-            z-index: 8;
-        }
-
-        .image9 {
-            position: absolute;
-            top: 1330px;
-            left: 930px;
-            z-index: 8;
-        }
-
-
-        h5 {
-            color: black;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="myStyle1.css">
+    
 </head>
 
 
@@ -172,7 +27,7 @@
             <div>
                 <ul>
                     <li id="menu"><a href="webpage.html">Home</a></li>
-                    <li id="menu"><a href="#">About</a></li>
+                    <li id="menu"><a href="about.html">About</a></li>
                     <li id="menu"><a href="#">Chat</a></li>
                 </ul>
             </div>
@@ -269,11 +124,50 @@
 
 
     <footer>
-        <div class="footer">
+        <div class="content">
+            <div id="subcontent">
+                <table cellpadding="10px"  cellspacing="0px">
+                    <tr>
+                        <th id="table1">COMPANY</th>
+                        <th id="table1">CUSTOMER CARE</th>
+                        <th id="table1">ADDRESS</th>
+                        <th id="table1">SAY HI:</th>
+                        <th id="table1">EMAIL US</th>
+
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">ABOUT US</td>
+                        <td style="text-align: center">SHIPPING RETURNS</td>
+                        <td style="text-align: center">PRK.TISUYON</td>
+                        <td style="text-align: center">FOLLOW US @LEIFSHOP</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">WHOLESALE</td>
+                        <td style="text-align: center">GIFT CARDS</td>
+                        <td style="text-align: center">BRGY.SI</td>
+                        <td style="text-align: center">HELLO @LEIFSHOP.COM</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center">VISIT US</td>
+                        <td style="text-align: center">FAQ</td>
+                        <td style="text-align: center">NEDRUDA STREET</td>
+                        
+                    </tr>
+                    <div class="input">
+                    <input aria-label="Enter email" type="email" value="" placeholder="Enter email" name="EMAIL"
+                            id="mail" class="input-group-field" autocorrect="off" autocapitalize="off">
+                    </div>
+                    <div class="btn">
+                        <button aria-label="Subscribe" type="submit" class="btn" name="subscribe" id="subscribe">Subscribe</button>
+                    </div>
+
+
+                </table>
+
+            </div>
 
         </div>
     </footer>
-    </div>
 </body>
 
 </html>
